@@ -1,16 +1,108 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Gallery</title>
+    <!-- Bootstrap CSS link -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Optional: Custom styles */
+        .movie-image {
+            width: 100px;
+            height: 100px;
+            object-fit: cover; /* Ensures the image covers the entire space */
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container-fluid">
+        <!-- First Row: 12 images -->
+        <div class="row">
+            <div class="col-sm-1">
+                <img src="https://images.unsplash.com/photo-1493962621260-74cc5a3baf89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+            <div class="col-sm-1">
+                <img src="https://images.unsplash.com/photo-1493962621260-74cc5a3baf89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+			<div class="col-sm-1">
+                <img src="https://images.unsplash.com/photo-1493962621260-74cc5a3baf89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+            <div class="col-sm-1">
+                <img src="https://images.unsplash.com/photo-1493962621260-74cc5a3baf89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+			<div class="col-sm-1">
+                <img src="https://images.unsplash.com/photo-1493962621260-74cc5a3baf89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+            <div class="col-sm-1">
+                <img src="https://images.unsplash.com/photo-1493962621260-74cc5a3baf89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+			<div class="col-sm-1">
+                <img src="https://images.unsplash.com/photo-1493962621260-74cc5a3baf89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+            <div class="col-sm-1">
+                <img src="https://images.unsplash.com/photo-1493962621260-74cc5a3baf89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+			<div class="col-sm-1">
+                <img src="https://images.unsplash.com/photo-1493962621260-74cc5a3baf89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+            <div class="col-sm-1">
+                <img src="https://images.unsplash.com/photo-1493962621260-74cc5a3baf89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+			<div class="col-sm-1">
+                <img src="https://images.unsplash.com/photo-1493962621260-74cc5a3baf89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+            <div class="col-sm-1">
+                <img src="https://images.unsplash.com/photo-1493962621260-74cc5a3baf89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEyfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+        </div>
 
+        <!-- Second Row: 6 images -->
+        <div class="row">
+            <div class="col-sm-2">
+                <img src="https://images.unsplash.com/photo-1564249561860-d453a95fa8a4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+            <div class="col-sm-2">
+                <img src="https://images.unsplash.com/photo-1564249561860-d453a95fa8a4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+			<div class="col-sm-2">
+                <img src="https://images.unsplash.com/photo-1564249561860-d453a95fa8a4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+            <div class="col-sm-2">
+                <img src="https://images.unsplash.com/photo-1564249561860-d453a95fa8a4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+			<div class="col-sm-2">
+                <img src="https://images.unsplash.com/photo-1564249561860-d453a95fa8a4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+            <div class="col-sm-2">
+                <img src="https://images.unsplash.com/photo-1564249561860-d453a95fa8a4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+           
+        </div>
+
+        <!-- Third Row: 3 images -->
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="https://images.unsplash.com/photo-1546971587-02375cbbdade?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDExfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+            <div class="col-sm-4">
+                <img src="https://images.unsplash.com/photo-1546971587-02375cbbdade?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDExfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+			 <div class="col-sm-4">
+                <img src="https://images.unsplash.com/photo-1546971587-02375cbbdade?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDExfDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+            <!-- Example for brevity -->
+        </div>
+
+        <!-- Fourth Row: 1 image -->
+        <div class="row">
+            <div class="col-sm-12">
+                <img src="https://images.unsplash.com/photo-1719530910202-9f791d646ee6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE3fDZzTVZqVExTa2VRfHxlbnwwfHx8fHw%3D" alt="Movie" class="movie-image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
